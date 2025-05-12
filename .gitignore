@@ -1,0 +1,29 @@
+# Abaikan file dan folder berikut saat menggunakan Git
+
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribusi dan paket
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+.env/
+
+# IDE dan editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# File log
+*.log
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
